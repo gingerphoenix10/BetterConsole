@@ -3,7 +3,7 @@
 
 <details>
     <summary>Jumpscare</summary>
-    <img alt="Better Callsole" src="https://github.com/gingerphoenix10/ContentPOVs/raw/refs/heads/main/BetterConsaul.png" />
+    <img alt="Better Callsole" src="https://github.com/gingerphoenix10/BetterConsole/blob/main/BetterConsaul.png?raw=true" />
 </details>
 
 A mod to improve the Debug console built into the game a little bit.
