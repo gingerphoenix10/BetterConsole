@@ -1,15 +1,15 @@
+using BepInEx;
 using HarmonyLib;
-using Unity.Mathematics;
-using UnityEngine;
-using Zorro.Settings;
 
 namespace BetterConsole;
 
-[ContentWarningPlugin("BetterConsole", "0.1", vanillaCompatible: true)]
-public class BConsolePlugin
+[ContentWarningPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, true)]
+[BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
+public class Plugin : BaseUnityPlugin
 {
-    static BConsolePlugin()
+    private static readonly Harmony Patcher = new(MyPluginInfo.PLUGIN_GUID);
+    private void Awake()
     {
-
+        Patcher.PatchAll();
     }
 }

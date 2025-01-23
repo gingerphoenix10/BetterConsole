@@ -1,0 +1,10 @@
+{
+  "name": "BetterConsole",
+  "description": "A mod to improve the Debug console built into the game a little bit.",
+  "author": "gingerphoenix10",
+  "version_number": "1.0.0",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ],
+  "website_url": "https://gingerphoenix10.com/BetterConsole"
+}
